@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.6",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.6/SecureSH-v0.1.6-windows-x64.exe",
-    "sha256": "81671da33f3af2ab6e64dfb086428fbe9e5053382bbc40d2795a642b7aee7927",
-    "notes": "SecureSH v0.1.6 \u2014 software KVM + pairing/mesh fixes"
+    "version": "0.1.7",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.7/SecureSH-v0.1.7-windows-x64.exe",
+    "sha256": "36216362409667644de6d575b0f30be02b0be3f0064ac7d2f573b82c3a67db7a",
+    "notes": "v0.1.7 \u2014 self-updater, remote desktop black-screen + monitor picker fixes, RDP points to no-admin Desktop"
   },
-  "sig": "4ba8468036be61b952769979685574a7a7586aa9a701c9e7042dbaf8b6d4f482e420fe0e1c5feade9650f5956de2438e167066bd6bf86f20d8564222ef756903"
+  "sig": "e8e8253950032380fb4e61ae93c76954fff1b757bc6ac09040f35ff6f33045a9294ca4d377170e4bd18856db4a0dcb5c16c1a7d5f4604ad1a8824bddf71a7706"
 }
