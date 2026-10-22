@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.11",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.11/SecureSH-v0.1.11-windows-x64.exe",
-    "sha256": "4395470510eacbe667d5a58ca308327b197e88de22ba5d7c0399f2d38fae06bf",
-    "notes": "SecureSH 0.1.11 \u2014 self-updater reliability.\n\n- Fixes the auto-update loop: the swap now retries until the exe is unlocked (Nuitka onefile keeps it locked briefly after exit), then relaunches the new version.\n- A failed update no longer loops on every launch; the version badge lets you retry manually.\n\nNote: 0.1.9/0.1.10 have the old broken swap, so you must download this build MANUALLY once. From 0.1.11 on, updates install automatically and reliably.\n\nIncludes 0.1.10 (RDP 32-bit colour, first-run vault creation) and all of 0.1.9 (native RDP, WebRTC/H.264/JPEG Remote Desktop with audio, Security panel)."
+    "version": "0.1.12",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.12/SecureSH-v0.1.12-windows-x64.exe",
+    "sha256": "961d1c5118727da1d673cd45e2607c457ce06264adee49a0817c4e080960810b",
+    "notes": "SecureSH 0.1.12 \u2014 full UI redesign.\n\nNew look: left icon rail (Sessions, Hosts, Keys, Snippets, Local servers, Mesh, Stream host, Settings), Quick connect centered in the top bar, session actions (Files, Tunnels, Broadcast, Log, Duplicate, Disconnect, split layouts) in the tab bar, a status bar, light / dark / match-system themes, responsive down to phone width, and reworked New session / Settings / Keys / prompts dialogs. Accessibility pass throughout.\n\nAlso includes: reliable auto-updater (retrying swap, no loops), native RDP in 32-bit colour, first-run vault creation, WebRTC/H.264/JPEG Remote Desktop with system audio, and the Security panel."
   },
-  "sig": "c16e9825439d4143c85249434b570ddd396fc8017e99a40131fadd6d784fce54cf60126a289077c095d53090a30382a469aafc8645fc61432e232413d1414d01"
+  "sig": "3be3bc52eced09dfaf11b3d12ecda6b0d68a10c3c2707ad76eb2f75f8be98ec2dd96ff75317512d50302f63ba8d2812be8d82cb8332985e7b39504597c79dd00"
 }
