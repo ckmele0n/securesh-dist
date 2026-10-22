@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.14",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.14/SecureSH-v0.1.14-windows-x64.exe",
-    "sha256": "0944121fb158f54b4c2c73bcf72cee59be000ce73ac2cf268ebea18a75b147ee",
-    "notes": "SecureSH 0.1.14 \u2014 in-app update reliability + logging.\n\nThe update helper now force-releases the exe lock (kills any leftover SecureSH.exe) before swapping, and logs every step to %LOCALAPPDATA%\\SecureSH\\update.log. Download this build manually; once on it, the in-app update should work, and if not the log shows exactly why.\n\nIncludes the full UI redesign, RDP (incl. xrdp/standard-security), WebRTC/H.264/JPEG Remote Desktop with audio, Security panel + first-run vault."
+    "version": "0.1.15",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.15/SecureSH-v0.1.15-windows-x64.exe",
+    "sha256": "745f84b93e72182b2c2bad1ff7d0a6c3c537abc455149dc9c85e2bcf23fb12cc",
+    "notes": "Disconnected sessions now show a non-green status dot on the tab and sidebar (fixes green-when-dropped). Includes the robust auto-update swap + logging from 0.1.14."
   },
-  "sig": "f53ae0cc02fc9e38d90065a27af093a29bd902e953e3fc7355fcd26932553babc2a30cd716c4388086d132b00267c646f7eacdb0ebe2455a6c377b4f8ffc4508"
+  "sig": "e407a27832a0a1754a7e61687174aef710aa14cfff61680346d30774b345e75a6a80410ef961a7ac2b97d162183cae5d99c957723e59b6609d2a235ef649ba05"
 }
