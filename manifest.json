@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.12",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.12/SecureSH-v0.1.12-windows-x64.exe",
-    "sha256": "961d1c5118727da1d673cd45e2607c457ce06264adee49a0817c4e080960810b",
-    "notes": "SecureSH 0.1.12 \u2014 full UI redesign.\n\nNew look: left icon rail (Sessions, Hosts, Keys, Snippets, Local servers, Mesh, Stream host, Settings), Quick connect centered in the top bar, session actions (Files, Tunnels, Broadcast, Log, Duplicate, Disconnect, split layouts) in the tab bar, a status bar, light / dark / match-system themes, responsive down to phone width, and reworked New session / Settings / Keys / prompts dialogs. Accessibility pass throughout.\n\nAlso includes: reliable auto-updater (retrying swap, no loops), native RDP in 32-bit colour, first-run vault creation, WebRTC/H.264/JPEG Remote Desktop with system audio, and the Security panel."
+    "version": "0.1.13",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.13/SecureSH-v0.1.13-windows-x64.exe",
+    "sha256": "dcf0469f8df3952f8f1e9180eb5fca07e68bcda5d4f76119048a69fe4d3915d6",
+    "notes": "SecureSH 0.1.13.\n\n- RDP now works with xrdp and other non-TLS/NLA servers: falls back to standard RDP security automatically when the host refuses SSL (fixes SSL_NOT_ALLOWED_BY_SERVER). Windows hosts still use NLA + 32-bit colour.\n- Auto-update no longer fires from a browser viewing the host (it was restarting the host app and dropping the browser). Only the desktop app updates itself now.\n\nIncludes the full UI redesign (0.1.12) and the reliable auto-updater (0.1.11)."
   },
-  "sig": "3be3bc52eced09dfaf11b3d12ecda6b0d68a10c3c2707ad76eb2f75f8be98ec2dd96ff75317512d50302f63ba8d2812be8d82cb8332985e7b39504597c79dd00"
+  "sig": "d237196a097aa8d5c2cf13340cf3fbd63e08f33b2998e7f8e5b4a8b75dec66c84b7f5f0f724582fc50dff4b08d923d7530ba2a477ccf6829dbf3f4e688101803"
 }
