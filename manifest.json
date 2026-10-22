@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.13",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.13/SecureSH-v0.1.13-windows-x64.exe",
-    "sha256": "dcf0469f8df3952f8f1e9180eb5fca07e68bcda5d4f76119048a69fe4d3915d6",
-    "notes": "SecureSH 0.1.13.\n\n- RDP now works with xrdp and other non-TLS/NLA servers: falls back to standard RDP security automatically when the host refuses SSL (fixes SSL_NOT_ALLOWED_BY_SERVER). Windows hosts still use NLA + 32-bit colour.\n- Auto-update no longer fires from a browser viewing the host (it was restarting the host app and dropping the browser). Only the desktop app updates itself now.\n\nIncludes the full UI redesign (0.1.12) and the reliable auto-updater (0.1.11)."
+    "version": "0.1.14",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.14/SecureSH-v0.1.14-windows-x64.exe",
+    "sha256": "0944121fb158f54b4c2c73bcf72cee59be000ce73ac2cf268ebea18a75b147ee",
+    "notes": "SecureSH 0.1.14 \u2014 in-app update reliability + logging.\n\nThe update helper now force-releases the exe lock (kills any leftover SecureSH.exe) before swapping, and logs every step to %LOCALAPPDATA%\\SecureSH\\update.log. Download this build manually; once on it, the in-app update should work, and if not the log shows exactly why.\n\nIncludes the full UI redesign, RDP (incl. xrdp/standard-security), WebRTC/H.264/JPEG Remote Desktop with audio, Security panel + first-run vault."
   },
-  "sig": "d237196a097aa8d5c2cf13340cf3fbd63e08f33b2998e7f8e5b4a8b75dec66c84b7f5f0f724582fc50dff4b08d923d7530ba2a477ccf6829dbf3f4e688101803"
+  "sig": "f53ae0cc02fc9e38d90065a27af093a29bd902e953e3fc7355fcd26932553babc2a30cd716c4388086d132b00267c646f7eacdb0ebe2455a6c377b4f8ffc4508"
 }
