@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.8",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.8/SecureSH-v0.1.8-windows-x64.exe",
-    "sha256": "f07e29c0fd28a538b84ad5ae7375d3585a4987ab3542b6d630ee8960ac3cce23",
-    "notes": "SecureSH 0.1.8 \u2014 big release.\n\nNative RDP in-canvas (no Docker): renders inside SecureSH, resizes, clipboard, usable resolution; fixed stuck modifiers (keyboard/cursor/Properties) and black non-primary monitors.\n\nRemote Desktop (no-admin) is now a native streamer with a WebRTC -> H.264/NVENC -> JPEG fallback ladder: dirty-rectangle tiling (much lower bandwidth), hardware H.264 via WebCodecs, full WebRTC video + system audio (Opus) + input over a data channel.\n\nSecurity: master-password prompt on startup, change master password, 'ask on every connection', 'remember on this device' (app only); settable/stable web-server token so the URL stops rotating.\n\nVault auto-prompt on connect; self-updater."
+    "version": "0.1.9",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.9/SecureSH-v0.1.9-windows-x64.exe",
+    "sha256": "f8e496a7c2366cfd8e1d788c8d0795f59e5bc4720e6a43bdef467501972fd969",
+    "notes": "SecureSH 0.1.9.\n\nSelf-updater now works in the packaged app and AUTO-UPDATES: on launch, if a newer signed version exists it installs and restarts automatically (no prompt, no manual quit). Fixes the old 'running from source / git pull' message in the exe.\n\nIncludes everything from 0.1.8:\n- Native RDP in-canvas (no Docker): renders inside SecureSH, resizes, clipboard; fixed stuck modifiers and black non-primary monitors.\n- Remote Desktop is a native streamer with a WebRTC -> H.264/NVENC -> JPEG fallback ladder: dirty-rectangle tiling (much lower bandwidth), hardware H.264 via WebCodecs, full WebRTC video + system audio (Opus) + input over a data channel.\n- Security: master-password prompt on startup, change password, 'ask on every connection', 'remember on this device'; settable/stable web-server token.\n\nNote: updating TO 0.1.9 from 0.1.7/0.1.8 is a manual download (older builds have the old updater); after that, updates are automatic."
   },
-  "sig": "bdd98d10a4fac6bf32450fdc63cf2a2788dd7b61a437991da56ac47d477c8719e772955d8ac107501cb87e1d848ade03dfdfb44dc2e4e6b6d4fa7eba9b5a7104"
+  "sig": "5c640a9c5a7d94b18ca3b18418f7ca2da1067fa75596c2027f060e80cb6186178d3c0757ff9b9b486226ab079a28fcd23cc5b2ade361e392c8ead591d73afe04"
 }
