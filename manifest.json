@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.10",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.10/SecureSH-v0.1.10-windows-x64.exe",
-    "sha256": "0605f5ab4217f119a33561a1642b1858cf66c833ad47572a8c03a60e99cb1d49",
-    "notes": "SecureSH 0.1.10.\n\n- RDP quality: force 32-bit true colour (was negotiating 16-bit \u2192 banded/washed-out).\n- Vault: first-run setup now works \u2014 'Set a master password' on first use instead of a dead 'Unlock' (you can finally save session passwords).\n\nIncludes everything from 0.1.9 (auto-updater, native RDP, WebRTC/H.264/JPEG Remote Desktop with system audio, Security panel). From 0.1.9 on, updates install automatically on launch."
+    "version": "0.1.11",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.11/SecureSH-v0.1.11-windows-x64.exe",
+    "sha256": "4395470510eacbe667d5a58ca308327b197e88de22ba5d7c0399f2d38fae06bf",
+    "notes": "SecureSH 0.1.11 \u2014 self-updater reliability.\n\n- Fixes the auto-update loop: the swap now retries until the exe is unlocked (Nuitka onefile keeps it locked briefly after exit), then relaunches the new version.\n- A failed update no longer loops on every launch; the version badge lets you retry manually.\n\nNote: 0.1.9/0.1.10 have the old broken swap, so you must download this build MANUALLY once. From 0.1.11 on, updates install automatically and reliably.\n\nIncludes 0.1.10 (RDP 32-bit colour, first-run vault creation) and all of 0.1.9 (native RDP, WebRTC/H.264/JPEG Remote Desktop with audio, Security panel)."
   },
-  "sig": "8af1b14002a06c4a0d29487c7df282e1225948c45ef4e7a3ffcd28476307ede8b369076af1160364378f3628ce1ccb0da7f0c1f63c1afd9a030a11e75e6de809"
+  "sig": "c16e9825439d4143c85249434b570ddd396fc8017e99a40131fadd6d784fce54cf60126a289077c095d53090a30382a469aafc8645fc61432e232413d1414d01"
 }
