@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.9",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.9/SecureSH-v0.1.9-windows-x64.exe",
-    "sha256": "f8e496a7c2366cfd8e1d788c8d0795f59e5bc4720e6a43bdef467501972fd969",
-    "notes": "SecureSH 0.1.9.\n\nSelf-updater now works in the packaged app and AUTO-UPDATES: on launch, if a newer signed version exists it installs and restarts automatically (no prompt, no manual quit). Fixes the old 'running from source / git pull' message in the exe.\n\nIncludes everything from 0.1.8:\n- Native RDP in-canvas (no Docker): renders inside SecureSH, resizes, clipboard; fixed stuck modifiers and black non-primary monitors.\n- Remote Desktop is a native streamer with a WebRTC -> H.264/NVENC -> JPEG fallback ladder: dirty-rectangle tiling (much lower bandwidth), hardware H.264 via WebCodecs, full WebRTC video + system audio (Opus) + input over a data channel.\n- Security: master-password prompt on startup, change password, 'ask on every connection', 'remember on this device'; settable/stable web-server token.\n\nNote: updating TO 0.1.9 from 0.1.7/0.1.8 is a manual download (older builds have the old updater); after that, updates are automatic."
+    "version": "0.1.10",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.10/SecureSH-v0.1.10-windows-x64.exe",
+    "sha256": "0605f5ab4217f119a33561a1642b1858cf66c833ad47572a8c03a60e99cb1d49",
+    "notes": "SecureSH 0.1.10.\n\n- RDP quality: force 32-bit true colour (was negotiating 16-bit \u2192 banded/washed-out).\n- Vault: first-run setup now works \u2014 'Set a master password' on first use instead of a dead 'Unlock' (you can finally save session passwords).\n\nIncludes everything from 0.1.9 (auto-updater, native RDP, WebRTC/H.264/JPEG Remote Desktop with system audio, Security panel). From 0.1.9 on, updates install automatically on launch."
   },
-  "sig": "5c640a9c5a7d94b18ca3b18418f7ca2da1067fa75596c2027f060e80cb6186178d3c0757ff9b9b486226ab079a28fcd23cc5b2ade361e392c8ead591d73afe04"
+  "sig": "8af1b14002a06c4a0d29487c7df282e1225948c45ef4e7a3ffcd28476307ede8b369076af1160364378f3628ce1ccb0da7f0c1f63c1afd9a030a11e75e6de809"
 }
