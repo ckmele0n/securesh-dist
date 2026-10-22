@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.7",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.7/SecureSH-v0.1.7-windows-x64.exe",
-    "sha256": "36216362409667644de6d575b0f30be02b0be3f0064ac7d2f573b82c3a67db7a",
-    "notes": "v0.1.7 \u2014 self-updater, remote desktop black-screen + monitor picker fixes, RDP points to no-admin Desktop"
+    "version": "0.1.8",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.8/SecureSH-v0.1.8-windows-x64.exe",
+    "sha256": "f07e29c0fd28a538b84ad5ae7375d3585a4987ab3542b6d630ee8960ac3cce23",
+    "notes": "SecureSH 0.1.8 \u2014 big release.\n\nNative RDP in-canvas (no Docker): renders inside SecureSH, resizes, clipboard, usable resolution; fixed stuck modifiers (keyboard/cursor/Properties) and black non-primary monitors.\n\nRemote Desktop (no-admin) is now a native streamer with a WebRTC -> H.264/NVENC -> JPEG fallback ladder: dirty-rectangle tiling (much lower bandwidth), hardware H.264 via WebCodecs, full WebRTC video + system audio (Opus) + input over a data channel.\n\nSecurity: master-password prompt on startup, change master password, 'ask on every connection', 'remember on this device' (app only); settable/stable web-server token so the URL stops rotating.\n\nVault auto-prompt on connect; self-updater."
   },
-  "sig": "e8e8253950032380fb4e61ae93c76954fff1b757bc6ac09040f35ff6f33045a9294ca4d377170e4bd18856db4a0dcb5c16c1a7d5f4604ad1a8824bddf71a7706"
+  "sig": "bdd98d10a4fac6bf32450fdc63cf2a2788dd7b61a437991da56ac47d477c8719e772955d8ac107501cb87e1d848ade03dfdfb44dc2e4e6b6d4fa7eba9b5a7104"
 }
