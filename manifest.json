@@ -1,9 +1,9 @@
 {
   "payload": {
-    "version": "0.1.15",
-    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.15/SecureSH-v0.1.15-windows-x64.exe",
-    "sha256": "745f84b93e72182b2c2bad1ff7d0a6c3c537abc455149dc9c85e2bcf23fb12cc",
-    "notes": "Disconnected sessions now show a non-green status dot on the tab and sidebar (fixes green-when-dropped). Includes the robust auto-update swap + logging from 0.1.14."
+    "version": "0.1.16",
+    "url": "https://github.com/ckmele0n/securesh-dist/releases/download/v0.1.16/SecureSH-v0.1.16-windows-x64.exe",
+    "sha256": "8e5399abe0da205d867a3cea2a7cd03fc625c94b358dc26714e95c33d6dfba12",
+    "notes": "SecureSH 0.1.16 \u2014 major RDP, streaming, files, and UI update.\n\nRDP\n- Fixed the crash connecting to Windows (\"NoneType has no attribute value\").\n- Crisp text: the remote desktop now renders at physical pixels.\n- Clipboard both ways: text and files (local <-> remote) over the RDP clipboard.\n- Keyboard: Alt+Tab / Win / Ctrl+Alt+Del redirect to the remote; on-screen key palette + Reset-keys; no more stuck modifiers or a stuck \"+\" cursor.\n- Remote resolution selector in the control bar; the bar collapses so it never blocks remote window buttons.\n- Clear disconnect reason on the pane; the canvas blanks on disconnect instead of showing a frozen frame.\n\nRemote Desktop / streaming\n- Capture secondary monitors instead of a black frame; live monitor switching on every path.\n- Higher-res capture; the view fills the pane and re-fits when the resolution changes.\n\nFiles (SFTP)\n- Total Commander-style dual-pane file manager; rename / delete / mkdir, right-click menu, and an in-app editor.\n\nUI\n- Split panes can hold different session types, each starting from an empty chooser (no more cloning the same session).\n- Drag to reorder sidebar sessions and tabs, and drag sessions in and out of groups.\n- Reconnect button on disconnected panes; Disconnect keeps the pane instead of closing the tab.\n- Tab bar and session toolbar split onto separate rows; fixed session-row buttons overlapping the host name; modals show a single close button.\n\nDesktop\n- System tray with close-to-tray and Windows autostart.\n- Auto-detects and installs the WebView2 Runtime on startup.\n\nSecurity\n- The session inventory is now locked behind the master password (cancelling the unlock no longer exposes sessions).\n\nUpdates\n- The frozen build bundles a CA trust store so the self-updater can verify TLS."
   },
-  "sig": "e407a27832a0a1754a7e61687174aef710aa14cfff61680346d30774b345e75a6a80410ef961a7ac2b97d162183cae5d99c957723e59b6609d2a235ef649ba05"
+  "sig": "b385a358766759af3eabf66758a30f875b6ccf1bc489e1e8426a67a4453ea4c637b4936050ace330cdb6d278be4821c0432152adb9049c810691f1c530f7ea04"
 }
